@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import { useAuthStore } from "../store/useAuthStore";
-import { Eye, EyeOff, Mail, MessageSquare, User, Lock, Loader2 } from "lucide-react";
+import {
+  Eye,
+  EyeOff,
+  Mail,
+  MessageSquare,
+  User,
+  Lock,
+  Loader2,
+} from "lucide-react";
 import { Link } from "react-router-dom";
 
 const SignUpPage = () => {
@@ -109,30 +117,30 @@ const SignUpPage = () => {
               </div>
             </div>
 
-            <button type='submit' className='btn btn-primary w-full' disabled={isSigningUp} >
-                  {isSigningUp ? (
-                    <>
-                      <Loader2 className='size-5 animate-spin' />
-                      Loading...
-                    </>
-                  ) : (
-                    "Create Account"
-                  )
-                }
+            <button
+              type="submit"
+              className="btn btn-primary w-full"
+              disabled={isSigningUp}
+            >
+              {isSigningUp ? (
+                <>
+                  <Loader2 className="size-5 animate-spin" />
+                  Loading...
+                </>
+              ) : (
+                "Create Account"
+              )}
             </button>
-
           </form>
 
           <div className="text-center">
-            <p className="text-base-content/60" >
-                Already have an account?{" "}
-                <Link to="/login" className='link link-primary'>
-                  Sign In
-                </Link>
-
+            <p className="text-base-content/60">
+              Already have an account?{" "}
+              <Link to="/login" className="link link-primary">
+                Sign In
+              </Link>
             </p>
           </div>
-
         </div>
       </div>
     </div>
