@@ -26,31 +26,28 @@ export const useAuthStore = create((set) => ({
   signup: async (data) => {
     set({ isSigningUp: true });
     try {
-        const res = await axiosInstance.post("/auth/signup", data);
-        set({ authUser: res.data });
-        toast.success("Account created successfully");
-        
-        
+      const res = await axiosInstance.post("/auth/signup", data);
+      set({ authUser: res.data });
+      toast.success("Account created successfully");
     } catch (error) {
-        toast.error(error.response.data.message);
+      toast.error(error.response.data.message);
     } finally {
-        set({ isSigningUp: false });
+      set({ isSigningUp: false });
     }
   },
 
   logout: async () => {
     try {
       await axiosInstance.post("/auth/logout");
-      set({ authUser: null});
+      set({ authUser: null });
       toast.success("Logged out Successfully");
     } catch (error) {
       toast.error(error.response.data.message);
-      
     }
   },
 
   login: async (data) => {
-    set({ isLoggingIn: true })
+    set({ isLoggingIn: true });
     try {
       const res = await axiosInstance.post("/auth/login", data);
       set({ authUser: res.data });
@@ -62,18 +59,17 @@ export const useAuthStore = create((set) => ({
     }
   },
 
-  updateProfile: async(data) =>{
-    set({ isUpdatingProfile: true});
+  updateProfile: async (data) => {
+    set({ isUpdatingProfile: true });
     try {
-      const res = await axiosInstance.put("/auth/update-profile", data)
+      const res = await axiosInstance.put("/auth/update-profile", data);
       set({ authUser: res.data });
-      toast.success("Profile updated sucessfully")
+      toast.success("Profile updated sucessfully");
     } catch (error) {
-      console.log("error in updating profile:", error)
+      console.log("error in updating profile:", error);
       toast.error(error.response.data.message);
-      
     } finally {
-      set({ isUpdatingProfile: false})
+      set({ isUpdatingProfile: false });
     }
-  }
+  },
 }));
