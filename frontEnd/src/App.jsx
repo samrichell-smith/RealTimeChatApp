@@ -27,7 +27,7 @@ const App = () => {
     );
 
   return (
-    <div>
+    <div data-theme="synthwave">
       <Navbar />
 
       <Routes>
