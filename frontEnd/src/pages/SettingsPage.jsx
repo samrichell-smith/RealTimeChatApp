@@ -63,6 +63,49 @@ const SettingsPage = () => {
                   </div>
               </div>
 
+              {/* Messages */}
+              <div className='p-4 space-y-4 min-h-[200px] max-h-[200px] overflow-y-auto bg-base-100'>
+                {PREVIEW_MESSAGES.map((message) => (
+                  <div
+                    key={message.id}
+                    className={`flex ${message.isSent ? "justify-end" : "justify-start"}`}
+                  >
+                    <div
+                      className={`
+                        max-w-[80%] rounded-xl p-3 shadow-sm
+                        ${message.isSent ? "big-primary text-primary-content" : "bg-base-200"}
+                      `}
+                    >
+                      <p className='text-sm'>{message.content}</p>
+                      <p
+                        className={`
+                          text-[10px] mt-1.5
+                          ${message.isSent ? "text-primary-content/70" : "text-base-content/70"}
+                        `}
+                      >
+                        12:00 PM
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* Input Box */}
+              <div className='p-4 border-t border-base-300 bg-base-100'>
+                <div className='flex gap-2'>
+                  <input 
+                    type='text'
+                    className='input input-bordered flex-1 text-sm h-10'
+                    placeholder='Type a message...'
+                    value='This is a preview'
+                    readOnly
+                  />
+                  <button className='btn btn-primary h-10 min-h-0'>
+                    <Send size={18} />
+                  </button>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
