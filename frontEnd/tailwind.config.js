@@ -15,7 +15,7 @@ export default {
       "light", 
       "dark",
       "synthwave",
-      "corporate"
+      "pastel"
     ]
   },
 };
