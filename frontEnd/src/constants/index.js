@@ -2,5 +2,9 @@ export const THEMES = [
     "light", 
     "dark",
     "synthwave",
-    "pastel"    
+    "pastel",
+    "nord",
+    "autumn",
+    "wireframe",
+    "sunset",
 ]

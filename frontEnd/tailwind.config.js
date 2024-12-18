@@ -15,7 +15,11 @@ export default {
       "light", 
       "dark",
       "synthwave",
-      "pastel"
+      "pastel",
+      "nord",
+      "autumn",
+      "wireframe",
+      "sunset"
     ]
   },
 };
