@@ -18,7 +18,7 @@ const Navbar = () => {
               <div className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center">
                 <Atom className="w-5 h-5 text-primary" />
               </div>
-              <h1 className="text-lg font-bold">NAME</h1>
+              <h1 className="text-lg font-bold">Relay</h1>
             </Link>
           </div>
 
