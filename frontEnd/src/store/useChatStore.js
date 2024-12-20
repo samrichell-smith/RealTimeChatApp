@@ -20,7 +20,7 @@ export const useChatStore = create((set) => ({
         } finally {
             set({ isUsersLoading: false})
         }
-    },
+    },  
 
     getMessages: async (userId) => {
         set({ isMessagesLoading: true})
