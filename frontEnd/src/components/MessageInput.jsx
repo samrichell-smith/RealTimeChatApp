@@ -23,9 +23,33 @@ const MessageInput = () => {
     reader.readAsDataURL(file);
   }
 
-  const removeImage = () => {}
+  const removeImage = () => {
+    setImagePreview(null);
+    if (fileInputRef.current) {
+      fileInputRef.current.value = "";
+    }
+  }
 
-  const handleSendMessage = async(e) => {}
+  const handleSendMessage = async(e) => {
+    e.preventDefault()
+    if (!text.trim() && !imagePreview) return;
+
+    try {
+      await sendMessage({
+        text: text.trim(),
+        image: imagePreview,
+      })
+
+      // Clears Form
+      setText("");
+      setImagePreview(null);
+      if (fileInputRef.current) {
+        fileInputRef.current.value = "";
+      }
+    } catch (error) {
+      console.error("Failed to send message", error)
+    }
+  }
 
   return (
     <div className='p-4 w-full'>
