@@ -1,10 +1,9 @@
-import React, { useState } from 'react'
-import { useAuthStore } from '../store/useAuthStore';
-import { Atom, Eye, EyeOff, Loader2, Mail, User, Lock } from 'lucide-react';
+import React, { useState } from "react";
+import { useAuthStore } from "../store/useAuthStore";
+import { Atom, Eye, EyeOff, Loader2, Mail, User, Lock } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const LoginPage = () => {
-
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({
     email: "",
@@ -15,9 +14,7 @@ const LoginPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     login(formData);
-  }
-
-
+  };
 
   return (
     <div className="min-h-screen flex justify-center items-center">
@@ -31,14 +28,11 @@ const LoginPage = () => {
                 <Atom className="size-6 text-primary" />
               </div>
               <h1 className="text-2xl font-bold mt-2">Welcome Back to Relay</h1>
-              <p className="text-base-content/60">
-                Sign in to your account
-              </p>
+              <p className="text-base-content/60">Sign in to your account</p>
             </div>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-6">
-
             <div className="form-control">
               <label className="label">
                 <span className="label-text font-medium">Email</span>
@@ -118,6 +112,6 @@ const LoginPage = () => {
       </div>
     </div>
   );
-}
+};
 
-export default LoginPage
+export default LoginPage;
