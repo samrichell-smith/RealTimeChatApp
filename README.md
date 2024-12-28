@@ -1,4 +1,4 @@
-<h1>Real-Time Messaging App</h1>
+<h1>Real-Time Messaging App <img src="readmeFiles/react-2.svg" alt="React" style="width: 60px; height: 60px; vertical-align: middle;"></h1>
 
 <p>This <strong>Real-Time Messaging App</strong> called <strong>Relay</strong> is developed using the <strong>MERN stack</strong> (MongoDB, Express.js, React, Node.js), enabling seamless real-time communication between users. I built this project not only to create a functional messaging app, but also to challenge myself and deepen my understanding of full-stack development. I learnt a lot about real-time data handling with <strong>Socket.io</strong>, as well as how to implement robust user authentication, and create a dynamic user interface using <strong>React</strong> and <strong>Tailwind CSS</strong>. This experience allowed me to build and grow my problem-solving skills, and gain experience with the design and architecture of real world web applications.</p>
 
