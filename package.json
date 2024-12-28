@@ -1,0 +1,13 @@
+{
+  "name": "realtimechatapp",
+  "version": "1.0.0",
+  "description": "A real time chat app, made with MERN stack (MongoDB, ExpressJS, React, Node).",
+  "main": "index.js",
+  "scripts": {
+    "build":"",
+    "start":""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
