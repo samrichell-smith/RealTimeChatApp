@@ -37,7 +37,7 @@
 <ul>
     <li><strong>Frontend:</strong>
         <ul>
-            <li><strong>React:</strong> For building interactive user interfaces.</li> <i class="fa-brands fa-react" style="color: #74C0FC;"></i>
+            <li><strong>React:</strong> For building interactive user interfaces.</li><img src="readmeFiles/react-brands-solid.svg" alt="React" style="width: 20px; height: 20px; vertical-align: middle;">  
             <li><strong>Tailwind CSS:</strong> For styling with utility-first CSS.</li>
             <li><strong>DaisyUI:</strong> To provide pre-designed UI components for faster development.</li>
         </ul>
