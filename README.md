@@ -1,9 +1,9 @@
 <h1>Real-Time Messaging App</h1>
 
-<p>This <strong>Real-Time Messaging App</strong> is developed using the <strong>MERN stack</strong> (MongoDB, Express.js, React, Node.js), enabling seamless real-time communication between users.</p>
+<p>This <strong>Real-Time Messaging App</strong> called <strong>Relay</strong> is developed using the <strong>MERN stack</strong> (MongoDB, Express.js, React, Node.js), enabling seamless real-time communication between users. I built this project not only to create a functional messaging app, but also to challenge myself and deepen my understanding of full-stack development. I learnt a lot about real-time data handling with <strong>Socket.io</strong>, as well as how to implement robust user authentication, and create a dynamic user interface using <strong>React</strong> and <strong>Tailwind CSS</strong>. This experience allowed me to build and grow my problem-solving skills, and gain experience with the design and architecture of real world web applications.</p>
 
 <h2>Live Demo</h2>
-<p>Experience the app live at <a href="link-to-live-demo">this link</a>. Feel free to test its features and functionality.</p>
+<p>Experience the app live at <a href="https://relay-bp3t.onrender.com">this link</a>. Feel free to test its features and functionality.</p>
 
 <h2>Key Features & Technologies</h2>
 
@@ -17,7 +17,6 @@
 
 <h3>Dynamic User Interface</h3>
 <p>The frontend is designed with <strong>React</strong> and <strong>Tailwind CSS</strong>, incorporating <strong>DaisyUI</strong> components for a responsive and visually appealing interface.</p>
-<img src="path/to/home-page-screenshot.png" alt="Home Page Screenshot">
 
 <h3>Media Sharing</h3>
 <p>Users can share text messages and images in real time, showcasing a seamless multimedia communication experience.</p>
