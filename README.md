@@ -3,7 +3,7 @@
 <p>This <strong>Real-Time Messaging App</strong> called <strong>Relay</strong> is developed using the <strong>MERN stack</strong> (MongoDB, Express.js, React, Node.js), enabling seamless real-time communication between users. I built this project not only to create a functional messaging app, but also to challenge myself and deepen my understanding of full-stack development. I learnt a lot about real-time data handling with <strong>Socket.io</strong>, as well as how to implement robust user authentication, and create a dynamic user interface using <strong>React</strong> and <strong>Tailwind CSS</strong>. This experience allowed me to build and grow my problem-solving skills, and gain experience with the design and architecture of real world web applications.</p>
 
 <h2>Live Demo</h2>
-<p>Experience the app live at <a href="https://relay-bp3t.onrender.com" target="_blank">this link</a>. Feel free to test its features and functionality.</p>
+<p>Experience the app live at <a href="https://relay-bp3t.onrender.com" target="_blank">this link</a>. Login with email: demoUser@email.com and password: 123456 Feel free to test its features and functionality.</p>
 
 <h2>Key Features & Technologies</h2>
 
@@ -37,7 +37,7 @@
 <ul>
     <li><strong>Frontend:</strong>
         <ul>
-            <li><strong>React:</strong> For building interactive user interfaces.</li>
+            <li><strong>React:</strong> For building interactive user interfaces.</li> <i class="fa-brands fa-react" style="color: #74C0FC;"></i>
             <li><strong>Tailwind CSS:</strong> For styling with utility-first CSS.</li>
             <li><strong>DaisyUI:</strong> To provide pre-designed UI components for faster development.</li>
         </ul>
@@ -58,49 +58,5 @@
         <ul>
             <li><strong>Render.com:</strong
 
-<!-- test table for technologies -->
-<h2>Technologies Used</h2>
-<table>
-    <tr>
-        <th>Type</th>
-        <th>Technology</th>
-        <th>Description</th>
-    </tr>
-    <tr>
-        <td>Frontend</td>
-        <td>React</td>
-        <td>For building interactive user interfaces.</td>
-    </tr>
-    <tr>
-        <td>Frontend</td>
-        <td>Tailwind CSS</td>
-        <td>For styling with utility-first CSS.</td>
-    </tr>
-    <!-- Add other technologies here -->
-</table>
-<!--  -->
 
-<h2>Installation Instructions</h2>
-<p>To get started with the Real-Time Messaging App, follow these steps:</p>
-<ol>
-    <li>Clone the repository to your local machine:</li>
-    <pre><code>git clone https://github.com/samrichell-smith/RealTimeChatApp</code></pre>
-    <li>Navigate to the project directory:</li>
-    <pre><code>cd relay</code></pre>
-    <li>Install the required dependencies for both the frontend and backend:</li>
-    <pre><code>npm install</code></pre>
-    <li>Set up your environment variables:</li>
-    <pre><code>cp .env.example .env</code></pre>
-    <li>Start the development server:</li>
-    <pre><code>npm start</code></pre>
-    <li>Open your browser and navigate to <strong>http://localhost:5001</strong> to access the app.</li>
-</ol>
 
-<h2>Usage</h2>
-<p>Once the app is running, you can:</p>
-<ul>
-    <li>Sign up or log in to your account.</li>
-    <li>Start chatting with other users in real time.</li>
-    <li>Share images and text messages seamlessly.</li>
-    <li>Customize your profile and change theme settings.</li>
-</ul>
