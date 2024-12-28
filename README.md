@@ -31,7 +31,7 @@
 
 <h3>Theme Customization</h3>
 <p>A settings page enables users to choose from a range of pre-set themes using <strong>DaisyUI</strong>, providing flexibility and customization in design.</p>
-<img src="path/to/settings-page-screenshot.png" alt="Settings Page Screenshot">
+<img src="readmeFiles/settingsPagess.png" alt="Settings Page Screenshot">
 
 <h2>Technologies Used</h2>
 <ul>
