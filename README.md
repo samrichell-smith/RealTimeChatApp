@@ -38,20 +38,20 @@
     <li><strong>Frontend:</strong>
         <ul>
             <li><strong>React:</strong> For building interactive user interfaces. <img src="readmeFiles/react-2.svg" alt="React" style="width: 20px; height: 20px; vertical-align: middle;"> </li> 
-            <li><strong>Tailwind CSS:</strong> For styling with utility-first CSS.<img src="readmeFiles/tailwind-css-2.svg" alt="Tailwind CSS" style="width: 20px; height: 20px; vertical-align: middle;"></li>
-            <li><strong>DaisyUI:</strong> To provide pre-designed UI components for faster development.<img src="readmeFiles/daisyui-logomark.svg" alt="Daisy UI" style="width: 20px; height: 20px; vertical-align: middle;"></li>
+            <li><strong>Tailwind CSS:</strong> For styling with utility-first CSS. <img src="readmeFiles/tailwind-css-2.svg" alt="Tailwind CSS" style="width: 20px; height: 20px; vertical-align: middle;"></li>
+            <li><strong>DaisyUI:</strong> To provide pre-designed UI components for faster development. <img src="readmeFiles/daisyui-logomark.svg" alt="Daisy UI" style="width: 20px; height: 20px; vertical-align: middle;"></li>
         </ul>
     </li>
     <li><strong>Backend:</strong>
         <ul>
-            <li><strong>Node.js:</strong> For server-side JavaScript execution.<img src="readmeFiles/nodejs.svg" alt="Node JS" style="width: 20px; height: 20px; vertical-align: middle;"></li>
-            <li><strong>Express.js:</strong> To create robust RESTful APIs.<img src="readmeFiles/express-109.svg" alt="Express JS" style="width: 20px; height: 20px; vertical-align: middle;"></li>
-            <li><strong>Socket.io:</strong> For enabling real-time bidirectional communication.<img src="readmeFiles/socket-io.svg" alt="Socket.io" style="width: 20px; height: 20px; vertical-align: middle;"></li>
+            <li><strong>Node.js:</strong> For server-side JavaScript execution. <img src="readmeFiles/nodejs.svg" alt="Node JS" style="width: 40px; height: 20px; vertical-align: middle;"></li>
+            <li><strong>Express.js:</strong> To create robust RESTful APIs. <img src="readmeFiles/express-109.svg" alt="Express JS" style="width: 20px; height: 20px; vertical-align: middle;"></li>
+            <li><strong>Socket.io:</strong> For enabling real-time bidirectional communication. <img src="readmeFiles/socket-io.svg" alt="Socket.io" style="width: 20px; height: 20px; vertical-align: middle;"></li>
         </ul>
     </li>
     <li><strong>Database:</strong>
         <ul>
-            <li><strong>MongoDB:</strong> For storing user data and chat messages efficiently.<img src="readmeFiles/mongodb-icon-1.svg" alt="MongoDB" style="width: 20px; height: 20px; vertical-align: middle;"></li>
+            <li><strong>MongoDB:</strong> For storing user data and chat messages efficiently. <img src="readmeFiles/mongodb-icon-1.svg" alt="MongoDB" style="width: 20px; height: 20px; vertical-align: middle;"></li>
         </ul>
     </li>
     <li><strong>Deployment:</strong>
