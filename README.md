@@ -9,11 +9,11 @@
 
 <h3>User Authentication</h3>
 <p>Secure login and signup functionality is implemented using <strong>JWT</strong> and <strong>bcrypt</strong> with Express.js, ensuring that user data is protected and accessible only to authorized users.</p>
-<img src="path/to/login-page-screenshot.png" alt="Login Page Screenshot">
+<img src="readmeFiles/loginPagess.png" alt="Login Page Screenshot">
 
 <h3>Real-Time Messaging</h3>
 <p>Utilizing <strong>Socket.io</strong>, users can send and receive messages instantly, enhancing their experience with real-time interactions.</p>
-<img src="path/to/chat-interface-screenshot.png" alt="Chat Interface Screenshot">
+<img src="readmeFiles/chatexampless.png" alt="Chat Interface Screenshot">
 
 <h3>Dynamic User Interface</h3>
 <p>The frontend is designed with <strong>React</strong> and <strong>Tailwind CSS</strong>, incorporating <strong>DaisyUI</strong> components for a responsive and visually appealing interface.</p>
@@ -27,7 +27,7 @@
 
 <h3>Profile Management</h3>
 <p>A user profile page allows users to update their information and change profile pictures, demonstrating effective state management and form handling in React.</p>
-<img src="path/to/profile-page-screenshot.png" alt="Profile Page Screenshot">
+<img src="readmeFiles/profilePagess.png" alt="Profile Page Screenshot">
 
 <h3>Theme Customization</h3>
 <p>A settings page enables users to choose from a range of pre-set themes using <strong>DaisyUI</strong>, providing flexibility and customization in design.</p>
