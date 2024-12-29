@@ -3,7 +3,7 @@
 <p>This <strong>Real-Time Messaging App</strong> called <strong>Relay</strong> is developed using the <strong>MERN stack</strong> (MongoDB, Express.js, React, Node.js), enabling seamless real-time communication between users. I built this project not only to create a functional messaging app, but also to challenge myself and deepen my understanding of full-stack development. I learnt a lot about real-time data handling with <strong>Socket.io</strong>, as well as how to implement robust user authentication, and create a dynamic user interface using <strong>React</strong> and <strong>Tailwind CSS</strong>. This experience allowed me to build and grow my problem-solving skills, and gain experience with the design and architecture of real world web applications.</p>
 
 <h2>Live Demo</h2>
-<p>Experience the app live at <a href="https://relay-bp3t.onrender.com" target="_blank">this link</a>. Login with email: demoUser@email.com and password: 123456 Feel free to test its features and functionality. (It may take some time to laucnh due to hosting).</p>
+<p>Experience the app live at <a href="https://relay-bp3t.onrender.com" target="_blank">this link</a>. Login with email: demoUser@email.com and password: 123456 Feel free to test its features and functionality. (It may take some time to launch due to hosting).</p>
 
 <h2>Key Features & Technologies</h2>
 
