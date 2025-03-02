@@ -56,7 +56,7 @@
     </li>
     <li><strong>Deployment:</strong>
         <ul>
-            <li><strong>Render.com:</strong
+            <li><strong>Render.com:</strong> For hosting the live demo
 
 
 
