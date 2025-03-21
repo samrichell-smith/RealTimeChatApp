@@ -12,7 +12,7 @@
 <img src="readmeFiles/loginPagess.png" alt="Login Page Screenshot">
 
 <h3>Real-Time Messaging</h3>
-<p>Utilizing <strong>Socket.io</strong>, users can send and receive messages instantly, enhancing their experience with real-time interactions.</p>
+<p>Utilizing <strong>Socket.io</strong>, users can send and receive messages instantly, enhancing their experience with real-time interactions.</p> 
 <img src="readmeFiles/chatexampless.png" alt="Chat Interface Screenshot">
 
 <h3>Dynamic User Interface</h3>
